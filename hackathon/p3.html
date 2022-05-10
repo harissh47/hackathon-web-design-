@@ -1,0 +1,121 @@
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Document Page </title>  
+<style>
+ 
+Body {  
+  font-family: Comic sans, Helvetica, sans-serif;  
+  
+ 
+}  
+
+body {
+  background-image: url('bg.jpg');
+  background-blend-mode: 0.5%
+  background-position: center;
+   background-repeat: no-repeat;
+   background-size:1500px 1000px
+ 
+}
+button {  
+         
+       background-color: #4CAF50;  
+       width: 50%;  
+        color: white;  
+        padding: 15px;  
+        margin: 10px 0px;  
+        border: none;  
+        cursor: pointer;}  
+          
+ form {  
+        border: 32px solid #f1f1f1;  
+    }  
+ 
+  label{
+      width: 50%;  
+        margin: 8px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid light blue;  
+        box-sizing: border-box;
+  }
+  input[type=text], input[type=password] , input[type=date]   {  
+        width: 50%;
+        margin: 10px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid brown; 
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        box-sizing: border-box;  
+    }  
+  input[type=checkbox]
+  {
+    width: 25%;
+    align: center;
+   
+  }
+  input[type= file]
+  {
+     width: 50%;
+        margin: 10px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid light blue;  
+        box-sizing: border-box;
+  }
+ button:hover {  
+        opacity: 1.0;  
+    }  
+  .cancelbtn {  
+        width: auto;  
+        padding: 10px 18px;  
+        margin: 10px 5px;
+         
+
+    }  
+  p{
+   
+  }    
+     
+ .container {  
+        padding: 25px;
+        width: 854px
+        height:874px;  
+
+    }  
+
+
+</style>  
+</head>    
+<body>    
+    <center> <h1> Document details </h1> </center>  
+    <form>  
+        <div class="container">  
+           
+         
+ <label><b>Aadhar number :</b></label>
+         
+          <input type="text" placeholder="Aadhar number" name="Aadhar number" required>  
+           <input type="file" placeholder="Upload Aadhar card" name="image">
+          <label><b>Pan card number :</b> </label>
+           <input type="text" placeholder="Pan card Number" name=" Pan card number" required>    
+            <input type="file" placeholder="Upload Aadhar card" name="image">  
+           <label><b>Pay slip details :</b> </label>
+           <input type="text" placeholder="Salary Details(Recent month)" name=" Salary_Details" required>    
+            <input type="file" placeholder="Upload Aadhar card" name="image">  
+           <label><b>User Photo :</b> </label>  
+         <h5><b>Upload your recent photo</b></h5>  
+          <input type="file"  name="image">
+          
+         
+         
+            <button type="submit" align: center >Upload</button>  
+           
+        </div>  
+    </form>    
+</body>    
+</html>p
