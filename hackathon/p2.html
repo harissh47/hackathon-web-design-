@@ -1,0 +1,118 @@
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>User Registration</title>  
+<style>
+ 
+body {   
+    background-image: url('bgsign.jpg');
+  background-blend-mode: 0.5%
+  background-position:center;
+   background-repeat: no-repeat;
+   background-size:1500px 1000px 
+ 
+}  
+button {  
+       background-color: #4CAF50;  
+       width: 50%;  
+        color: white;  
+        padding: 15px;  
+        margin: 10px 0px;  
+        border: none;  
+        cursor: pointer;  
+         }  
+ form {  
+        border: 32px solid #f1f1f1;  
+    }  
+ 
+  label{
+      width: 50%;  
+        margin: 8px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid light blue;  
+        box-sizing: border-box;
+
+  }
+  input[type=text], input[type=password] , input[type=date],input[type=select]{  
+        width: 50%;
+        margin: 10px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid brown; 
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px; 
+        box-sizing: border-box;  
+    }  
+  input[type=checkbox]
+  {
+    width: 50%;
+   
+  }
+ button:hover {  
+        opacity: 0.7;  
+    }  
+  .cancelbtn {  
+        width: auto;  
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }  
+       
+     
+ .container {  
+        padding: 85px;  
+        
+    }  
+  #genders{
+   width: 50%;
+        margin: 10px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid brown;  
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        box-sizing: border-box;
+  }  
+</style>  
+</head>    
+<body>    
+    <center> <h1> Personal details Form </h1> </center>  
+    <form>  
+        <div class="container">  
+            <label><b>Name :</b> </label>
+         
+ 
+         
+          <input type="text" placeholder="Enter Name" name="Name" required>  
+            <label><b>Age :</b> </label>  
+            <input type="text" placeholder="Enter Age" name="age" required>  
+           <label><b>Date of birth :</b> </label>  
+            <input type="date" placeholder="Enter D.O.B" name="D>O>B" required>
+       
+            <input type="password" placeholder="New Password" name="password" required>
+            <input type="password" placeholder="Confirm password" name="password" required>
+           
+             <label><b>Choose a gender :</b> </label>
+            <select name="genders" id="genders">
+
+
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+
+
+            </select>
+         
+            <button type="submit" onclick="window.location.href='p3.html';">Next</button>
+
+           
+ 
+           
+        </div>  
+    </form>    
+</body>    
+</html> 
