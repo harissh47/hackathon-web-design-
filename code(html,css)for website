@@ -1,0 +1,444 @@
+LOGIN PAGE CODE :
+       <html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>
+
+
+ #Forgot{
+    margin: 12px
+ }
+
+body {  
+    background-color: lightblue;
+}  
+button{  
+            background-color: #4CAF50;  
+       width: 25%;  
+        color: white;  
+        padding: 15px;  
+        margin: 10px 0px;  
+        border: none;  
+        cursor: pointer;  }         }      
+     
+       
+ form {  
+        border: 32px solid #f1f1f1;
+    }  
+ label{
+    width: 100%; 
+        margin: 12px 0;  
+        padding: 12px 12px;  
+        display: inline-block;
+        text-align{al}
+
+        border: 2px solid lightblue;  
+        box-sizing: border-box;  
+ }        
+
+ input[type=text], input[type=password]{  
+        width: 50%;  
+        margin: 12px 0;  
+        padding: 12px 12px;
+        width: 450px;
+        height: 50px;  
+        display: inline-block;
+        border: 2px solid brown;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        box-sizing: border-box;  
+    }  
+ button:hover {  
+        opacity: 0.7;  
+    }  
+  .cancelbtn {  
+        width: auto;  
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }  
+       
+     
+ .container {  
+        padding: 85px;  
+        width: 1044px;
+        height: 802px;
+        
+
+    }     
+</style>  
+</head>    
+<body>    
+    <center> <h1> User Login Form </h1> </center>
+    <h1 style="color:white"></h1>  
+    <form>  
+        <div class="container">  
+            <label><b>Username :</b></label>
+         
+          <input type="text" placeholder="Enter Username" name="fname" required>  
+            <label><b>Password :</b></label>  
+            <input type="password" placeholder="Enter Password" name="pass" required>  
+             <button type="submit"> Login</button>  
+            <input type="checkbox" checked="checked" > I agree to terms and privacy policy 
+         
+            <button type="button" onclick="window.location.href='D:\hackathon\\p2.html';">Sign up </button>  
+            Forgot <a href="#" id="Forgot"> password? </a>  
+        </div>  
+    </form>    
+</body>    
+</html>
+
+-------------------------------------------------------------------------------------------------------------------
+SIGNUPPAGE CODE:
+
+
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>User Registration</title>  
+<style>
+ 
+body {   
+    Background-color:lightblue;
+ 
+}  
+button {  
+       background-color: #4CAF50;  
+       width: 50%;  
+        color: white;  
+        padding: 15px;  
+        margin: 10px 0px;  
+        border: none;  
+        cursor: pointer;  
+         }  
+ form {  
+        border: 32px solid #f1f1f1;  
+    }  
+ 
+  label{
+      width: 50%;  
+        margin: 8px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid light blue;  
+        box-sizing: border-box;
+
+  }
+  input[type=text], input[type=password] , input[type=date],input[type=select]{  
+        width: 50%;
+        margin: 10px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid brown; 
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px; 
+        box-sizing: border-box;  
+    }  
+  input[type=checkbox]
+  {
+    width: 50%;
+   
+  }
+ button:hover {  
+        opacity: 0.7;  
+    }  
+  .cancelbtn {  
+        width: auto;  
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }  
+       
+     
+ .container {  
+        padding: 85px;  
+        
+    }  
+  #genders{
+   width: 50%;
+        margin: 10px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid brown;  
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        box-sizing: border-box;
+  }  
+</style>  
+</head>    
+<body>    
+    <center> <h1> Personal details Form </h1> </center>  
+    <form>  
+        <div class="container">  
+            <label><b>Name :</b> </label>
+         
+ 
+         
+          <input type="text" placeholder="Enter Name" name="Name" required>  
+            <label><b>Age :</b> </label>  
+            <input type="text" placeholder="Enter Age" name="age" required>  
+           <label><b>Date of birth :</b> </label>  
+            <input type="date" placeholder="Enter D.O.B" name="D>O>B" required>
+       
+            <input type="password" placeholder="New Password" name="password" required>
+            <input type="password" placeholder="Confirm password" name="password" required>
+           
+             <label><b>Choose a gender :</b> </label>
+            <select name="genders" id="genders">
+
+
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+
+
+            </select>
+         
+            <button type="submit" onclick="window.location.href='D:\hackathon\\p3.html';">Next</button>
+
+           
+ 
+           
+        </div>  
+    </form>    
+</body>    
+</html> 
+
+-------------------------------------------------------------------------------------------------------------------
+DOCUMENT DETAILS CODE:
+
+
+
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Document Page </title>  
+<style>
+ 
+Body {  
+  font-family: Comic sans, Helvetica, sans-serif;  
+  
+ 
+}  
+
+body {
+Background-color:lightblue;
+
+}
+button {  
+         
+       background-color: #4CAF50;  
+       width: 50%;  
+        color: white;  
+        padding: 15px;  
+        margin: 10px 0px;  
+        border: none;  
+        cursor: pointer;}  
+          
+ form {  
+        border: 32px solid #f1f1f1;  
+    }  
+ 
+  label{
+      width: 50%;  
+        margin: 8px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid light blue;  
+        box-sizing: border-box;
+  }
+  input[type=text], input[type=password] , input[type=date]   {  
+        width: 50%;
+        margin: 10px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid brown; 
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        box-sizing: border-box;  
+    }  
+  input[type=checkbox]
+  {
+    width: 25%;
+    align: center;
+   
+  }
+  input[type= file]
+  {
+     width: 50%;
+        margin: 10px 0;  
+        padding: 12px 20px;  
+        display: inline-block;  
+        border: 2px solid light blue;  
+        box-sizing: border-box;
+  }
+ button:hover {  
+        opacity: 1.0;  
+    }  
+  .cancelbtn {  
+        width: auto;  
+        padding: 10px 18px;  
+        margin: 10px 5px;
+         
+
+    }  
+  p{
+   
+  }    
+     
+ .container {  
+        padding: 25px;
+        width: 854px
+        height:874px;  
+
+    }  
+
+
+</style>  
+</head>    
+<body>    
+    <center> <h1> Document details </h1> </center>  
+    <form>  
+        <div class="container">  
+           
+         
+ <label><b>Aadhar number :</b></label>
+         
+          <input type="text" placeholder="Aadhar number" name="Aadhar number" required>  
+           <input type="file" placeholder="Upload Aadhar card" name="image">
+          <label><b>Pan card number :</b> </label>
+           <input type="text" placeholder="Pan card Number" name=" Pan card number" required>    
+            <input type="file" placeholder="Upload Aadhar card" name="image">  
+           <label><b>Pay slip details :</b> </label>
+           <input type="text" placeholder="Salary Details(Recent month)" name=" Salary_Details" required>    
+            <input type="file" placeholder="Upload Aadhar card" name="image">  
+           <label><b>User Photo :</b> </label>  
+         <h5><b>Upload your recent photo</b></h5>  
+          <input type="file"  name="image">
+          
+         
+         
+            <button type="submit" align: center >Upload</button>  
+           
+        </div>  
+    </form>    
+</body>    
+</html>
+—-------------------------------------------------------------------------------------------------------------------
+
+
+SCRIPT:
+FETCHING DATA FROM EXCEL TO HTML (Not working)
+
+<script language="vbscript" type="text/vbscript">  
+         Sub Sample ()  
+          Dim iRow  
+          Set objExcel = CreateObject ("Excel. Application")  
+          Set objWorkbook = objExcel.Workbooks.Open ("D:\hackathon\Book.xlsx")  
+          objExcel.Application.Visible = True  
+          ObjWorkbook.Windows (1).Visible = True  
+          Set XlSheet =objWorkbook.Sheets (1)  
+          XlSheet.Activate  
+          iRow = 1  
+          With objExcel  
+              Do while .Cells (iRow, 1).value <> ""  
+                  .Cells (iRow, 1).activate  
+                  iRow = iRow + 1  
+              Loop  
+                 .Cells (iRow, 1).value=Document.GetElementsByName ("fname") (0).Value  
+                 .Cells (iRow, 2).value=Document.GetElementsByName ("lname") (0).Value    
+                 MsgBox "Data Added Successfully”, vbinformation  
+                 Document.GetElementsByName ("fname") (0).Value=""  
+                 Document.GetElementsByName ("lname") (0).Value=""  
+             End With  
+             ObjWorkbook. Save  
+             ObjWorkbook. Close  
+             Set objWorkbook = Nothing  
+             Set objExcel = Nothing  
+         End Sub  
+      </script>  
+        <fieldset>  
+      <center>    
+         Username :<br>   
+         <input type="text" name="fname" Value=""><br>  
+         Password :< br>  
+         <input type="text" name="lname" Value=""><br>    
+         <br>  
+         <button type="button" onclick="window.location.href='D:\hackathon\\p2.html';">Login</button>
+      </center>  
+   </fieldset>  
+
+
+—----------------------------------------------------------------------------------------------------------------------------
+
+Menu Page :
+
+color: var(--secoColor);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  text-align: center;
+  transition: filter 200ms linear 0s;
+}
+.menu a:nth-of-type(1) {
+  padding-top: 24px;
+}
+.menu a:nth-last-of-type(1) {
+  border-bottom: none;
+}
+.menu a:hover {
+  filter: brightness(200%);
+}
+details::before {
+  content: "← Click This Button";
+  color: var(--secoColor);
+  position: absolute;
+  margin-left: 80px;
+  padding: 10px 10px;
+  opacity: 0.4;
+}
+details[open]::before {
+  animation: fadeMe 300ms linear forwards;
+}
+@keyframes menuAnim {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 312px;
+  }
+}
+@keyframes fadeMe {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+</style>>
+</head>
+
+<body>
+
+<details>
+  <summary></summary>
+  <nav class="menu">
+    <a href="#link">Profile</a>
+    <a href="#link">Balance</a>
+    <a href="#link">Account</a>
+    <a href="#link">Contact</a>
+    <a href="#link">About</a>
+  </nav>
+</details>
+</body>
+
+
